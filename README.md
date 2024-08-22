@@ -27,15 +27,11 @@ The "Instances" tab provides an interface for Local LLMs, retaining history with
     ollama pull nomic-embed-text
     ```
 
-### Step 2: Setting Up The Application
-
-- **Customize YAML:** Rename and modify a copy of the YAML file, especially the "SYSTEM" portion, which dictates the AI’s behavior and personality. For example, you can specify: "YOU are named John, YOU are a chef."
-
-### Step 3: Place All Files Into One Directory
+### Step 2: Place All Files Into One Directory
 
 - **Download All Listed Files from the Repository:** Open your directory in VS Code or navigate through the console/terminal. Then run the respective commands for your operating system listed below in Step 5.
 
-### Step 4: Ensure Dependencies
+### Step 3: Ensure Dependencies
 
 - **Create Virtual Environment:**
     ```bash
@@ -55,15 +51,15 @@ The "Instances" tab provides an interface for Local LLMs, retaining history with
     pip install -r requirements.txt
     ```
 
-### Step 5: Run `app.py`
+### Step 4: Run `app.py`
 
 - **Congrats on Setting Up Your New RAG Application!** You're ready to start querying. The following steps are optional and only needed if you wish to customize the AI model's personality in the general "Instances" tab.
 
-### Step 6 (Optional): Change the Personality of Your Local LLM Chats in Instances
+### Step 5 (Optional): Change the Personality of Your Local LLM Chats in Instances
 
-- **Customize YAML:** Modify the `customllama3.1.yaml` file to adjust the personality of the chatbot. Update the SYSTEM message with desired attributes, then run the following command in Step 7:
+- **Customize YAML:** - Navigate to the customllama3.1.yaml file. The "SYSTEM" portion dictates the AI’s behavior and personality. For example, you can specify: "YOU are named John, YOU are a chef." Update the SYSTEM message with desired attributes, then run the following command in Step 7:
 
-### Step 7 (Optional): Creating the New Model
+### Step 6 (Optional): Creating the New Model
 
 - **Default Model Name:** The script uses `llama3.1` by default in `Instances.py`.
     ```bash
