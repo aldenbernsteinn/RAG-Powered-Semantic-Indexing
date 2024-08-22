@@ -10,7 +10,7 @@ from Instances import ChatWindow  # Import ChatWindow from Instances.py
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Ragabond")
+        self.setWindowTitle("RAG-Powered Semantic Indexing")
 
         # Initialize the restart_in_progress flag
         self.restart_in_progress = False
