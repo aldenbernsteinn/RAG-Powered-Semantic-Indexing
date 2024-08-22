@@ -1,4 +1,4 @@
-# AI Data Analysis - RAG
+# RAG-Powered-Semantic-Indexing
 
 This program leverages Retrieval-Augmented Generation (RAG) to enable efficient querying of large documents and databases with instant load times once the index is generated.
 
