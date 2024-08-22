@@ -5,7 +5,7 @@ This program leverages Retrieval-Augmented Generation (RAG) to enable efficient 
 - **Create vector stores** from your provided data.
 - **Select from a list** of your created indexes and query them semantically for direct answers.
 
-## But What is RAG?
+## What is RAG?
 
 "Retrieval-Augmented Generation (RAG) optimizes the output of a large language model by referencing an authoritative knowledge base outside of its training data before generating a response. This approach enhances the model's capabilities without retraining, ensuring the output remains relevant and accurate across various contexts." - Paraphrased from Amazon Web Services
 
