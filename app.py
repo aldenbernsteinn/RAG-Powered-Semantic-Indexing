@@ -80,13 +80,13 @@ class MainWindow(QMainWindow):
         self.ragabond_tab.adjustSize()
         self.instances_tab.adjustSize()
         self.tab_widget.update()
-        self.tab_widget.resize(self.tab_widget.sizeHint())  # Resize tab widget to fit its content
-        self.update()  # Update the main window to reflect changes
+        self.tab_widget.resize(self.tab_widget.sizeHint())
+        self.update()
 
     def reset_state(self):
         """Reset the application state only if restarting."""
         if self.restart_in_progress:
-            self.sidebar.reset()  # Ensure you define a reset method in RAGSidebar
+            self.sidebar.reset()
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
